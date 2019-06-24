@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer{
+    width: 100%;
+    background: #0C0C0C;
+    color: white;   
+
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    color: #fff;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    color: #fff
+}
+
+.colum1{
+    max-width: 400px;
+    color: #fff
+}
+
+.colum1 h1{
+    font-size: 22px;
+    color: #fff;
+}
+
+.colum1 p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.colum2{
+    color: #fff;
+    max-width: 400px;
+    color: #fff
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+    color: #fff;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+    color: #fff
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+    color: #fff
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.colum3{
+    max-width: 400px;
+    color: #fff;
+}
+
+.colum3 h1{
+    font-size: 22px;
+    color: #fff;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+    color: #fff
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+    color: #fff
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: #fff;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #000;
+    color: #fff
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+    color: #fff;
+}
+
+.copyright{
+    color: #fff;
+
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    color: #fff;
+}
+
+.information a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+        color: #fff;
+    }
+    
+    .colum1{
+        max-width: 100%;
+        color: #fff;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+        color: #000
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
